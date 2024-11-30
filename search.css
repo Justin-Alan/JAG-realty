@@ -3,12 +3,6 @@ nav .container, .navbar-rocket .container {
   padding-left: 25px;
 }
 
-.flexCenter {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height:100%;
-}
 
 body,
 html {
@@ -16,6 +10,17 @@ html {
     height: 100%;
 }
 
+.flexCenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:100%;
+}
+
+.flexCenter * {
+    height: 100vh;
+    height: 100%;
+}
 
 iframe {
     width: 960px;
