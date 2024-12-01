@@ -17,9 +17,9 @@ html {
     height:100%;
 }
 
-.flexCenter * {
+.flexCenter, .flexCenter * {
     height: 100vh;
-    height: 900px;
+    height: 930px;
 }
 
 iframe {
