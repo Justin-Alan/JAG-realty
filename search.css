@@ -28,3 +28,9 @@ iframe {
     overflow: hidden;
     border: none;
 }
+
+h1, footer {
+    text-align: center;
+    color: #5299DB;
+    font-family: sans-serif;
+}
